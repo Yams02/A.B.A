@@ -1,0 +1,97 @@
+body {
+    background: rgb(250,69,6);
+    background: linear-gradient(90deg, rgba(250,69,6,1) 0%, rgba(255,138,24,1) 59%, rgba(255,138,24,1) 65%, rgba(247,126,24,1) 74%, rgba(244,125,17,1) 76%, rgba(249,130,15,1) 83%, rgba(253,147,29,1) 92%, rgba(253,147,29,1) 97%, rgba(255,139,32,1) 99%, rgba(253,147,29,1) 100%, rgba(249,130,15,1) 100%, rgba(249,130,15,1) 100%, rgba(255,139,32,1) 100%, rgba(255,139,32,1) 100%);
+}
+.bulle {
+    display: inline-block;
+    text-align:center;
+    width: 180px;
+    margin: 10px 0;
+    height: 150px;
+    border-radius: 100px;
+    border-bottom: 1px solid #988d7c;
+    box-shadow: 0 1px 8px rgba(255,255,255,1);
+    overflow: hidden;
+}
+#img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.title {
+    margin-top: -1.5em;
+    font-size: 5em;
+    font-family: 'Molengo', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+.sub-title {
+    font-size: 3em;
+    color: white;
+}
+.style {	
+    color: black;
+    font-weight:bold;
+    margin: 2em;
+}
+.header {
+    background-color: black;
+}
+.footer {
+    background-color: black;    
+}
+.list {
+    display: inline-block;
+    float: left;
+    width: 430px;
+    margin-left: 7em;
+}
+.promo {
+    font-size: 2em ;
+        color: white;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px orangered, 0 0 5px ;
+    font-family: 'Arizonia', cursive;
+    line-height: 0.5em;
+}
+.incline{
+    transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -khtml-transform: rotate(-8deg);
+}
+
+@media screen and (max-width: 480px) {
+    #img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .bulle {
+        display: inline-block;
+        text-align:center;
+        width: 180px;
+        margin: 10px 0;
+        height: 150px;
+        border-radius: 100px;
+        border-bottom: 1px solid #988d7c;
+        box-shadow: 0 1px 8px rgba(255,255,255,1);
+        overflow: hidden;
+        margin-left: 4.5em;
+    }
+    .list {
+    font-size: 1.2em;
+    display: inline-block;
+    float: left;
+    width: 430px;
+    margin-left: -4em;
+}
+    .title {
+        margin-top: -0em;
+        font-size: 3em;
+    }
+    .sub-title {
+        font-size: 1.5em;
+    }
+}
