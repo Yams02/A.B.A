@@ -44,7 +44,9 @@ body {
     display: inline-block;
     float: left;
     width: 430px;
-    margin-left: 7em;
+    margin-left: 11em;
+        color: black;
+    font-weight:bold;
 }
 .promo {
     font-size: 2em ;
@@ -83,9 +85,12 @@ body {
     .list {
     font-size: 1.2em;
     display: inline-block;
-    float: left;
+    float: center;
     width: 430px;
-    margin-left: -5em;
+    margin-left: -6em;
+}
+li {
+    margin-left: 5em;
 }
     .title {
         margin-top: -0em;
